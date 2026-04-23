@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(commit-commands:commit-push-pr)",
+      "Bash(git checkout:*)",
+      "Bash(git push:*)",
+      "Bash(git submodule:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)"
+    ]
+  }
+}
