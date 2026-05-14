@@ -33,7 +33,7 @@ Create a new user account.
 **Request:**
 ```json
 {
-  "email": "thomas@nexlayer.io",
+  "email": "thomas@nexuslayer.io",
   "password": "min-8-chars",
   "full_name": "Thomas"
 }
@@ -43,7 +43,7 @@ Create a new user account.
 ```json
 {
   "id": "uuid",
-  "email": "thomas@nexlayer.io",
+  "email": "thomas@nexuslayer.io",
   "full_name": "Thomas",
   "created_at": "2026-04-11T08:00:00Z"
 }
@@ -55,7 +55,7 @@ Get JWT tokens.
 **Request:**
 ```json
 {
-  "email": "thomas@nexlayer.io",
+  "email": "thomas@nexuslayer.io",
   "password": "secret"
 }
 ```
@@ -84,8 +84,8 @@ Create a workspace. Caller becomes owner.
 **Request:**
 ```json
 {
-  "name": "Nexlayer Analytics",
-  "slug": "nexlayer",
+  "name": "NexusLayer Analytics",
+  "slug": "nexuslayer",
   "llm_provider": "anthropic",
   "llm_model": "claude-sonnet-4-20250514"
 }
@@ -251,7 +251,7 @@ Create a template.
   "delivery_channels": [
     {
       "type": "email",
-      "recipients": ["team@nexlayer.io"],
+      "recipients": ["team@nexuslayer.io"],
       "subject": "Weekly Revenue Report — {{report_date}}"
     },
     {

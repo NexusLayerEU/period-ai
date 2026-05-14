@@ -222,7 +222,7 @@ OLLAMA_BASE_URL=http://localhost:11434   # optional, user-provided
 
 # Email — required for email delivery
 SENDGRID_API_KEY=SG....
-EMAIL_FROM=reports@nexlayer.io
+EMAIL_FROM=reports@nexuslayer.io
 
 # Slack — required for Slack delivery
 # (stored per-workspace in DB, not env var)

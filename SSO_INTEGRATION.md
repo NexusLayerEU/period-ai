@@ -27,7 +27,7 @@ async def protected_route(request: Request):
 ## Environment Variables
 Add to `.env`:
 ```
-SSO_JWT_SECRET=nexlayer-shared-sso-secret-change-in-production-64chars!!
+SSO_JWT_SECRET=nexuslayer-shared-sso-secret-change-in-production-64chars!!
 IDENTITY_SERVER_URL=http://192.168.68.111:3007
 ```
 

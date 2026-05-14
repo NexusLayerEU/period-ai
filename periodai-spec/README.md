@@ -1,6 +1,6 @@
 # PeriodAI — Agent Build Instructions
 
-**Company:** Nexlayer  
+**Company:** NexusLayer  
 **Product:** PeriodAI — Automated Intelligence Reporting Engine  
 **Version:** 1.0.0  
 **Status:** Ready for Development

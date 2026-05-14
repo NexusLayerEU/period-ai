@@ -13,8 +13,8 @@
 
 *Define templates. Schedule runs. Receive intelligent narrative reports — automatically.*
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/nexlayer/periodai/ci.yml?branch=main&style=flat-square&logo=github&label=build)](https://github.com/nexlayer/periodai)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](https://github.com/nexlayer/periodai/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/nexuslayer/periodai/ci.yml?branch=main&style=flat-square&logo=github&label=build)](https://github.com/nexuslayer/periodai)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](https://github.com/nexuslayer/periodai/releases)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -22,11 +22,11 @@
 [![Celery](https://img.shields.io/badge/Celery-5.4-37814A?style=flat-square)](https://docs.celeryq.dev)
 [![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis&logoColor=white)](https://redis.io)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org)
-[![Nexlayer](https://img.shields.io/badge/Nexlayer-Platform-0F172A?style=flat-square)](../README.md)
+[![NexusLayer](https://img.shields.io/badge/NexusLayer-Platform-0F172A?style=flat-square)](../README.md)
 
 <br/>
 
-[**Live Demo**](http://192.168.68.111:3003) · [**API Docs**](http://192.168.68.111:8090/docs) · [**Report Bug**](https://github.com/nexlayer/periodai/issues) · [**Request Feature**](https://github.com/nexlayer/periodai/issues)
+[**Live Demo**](http://192.168.68.111:3003) · [**API Docs**](http://192.168.68.111:8090/docs) · [**Report Bug**](https://github.com/nexuslayer/periodai/issues) · [**Request Feature**](https://github.com/nexuslayer/periodai/issues)
 
 </div>
 
@@ -101,7 +101,7 @@ graph TB
         CSV["CSV Uploads\nGoogle Sheets"]
     end
 
-    subgraph Platform["🔗 Nexlayer Platform"]
+    subgraph Platform["🔗 NexusLayer Platform"]
         ModelRouter["🔀 ModelRouter"]
         AgentVault["🔐 AgentVault"]
         WatchGrid["📊 WatchGrid"]
@@ -160,7 +160,7 @@ stateDiagram-v2
 ### 1. Clone & Configure
 
 ```bash
-git clone https://github.com/nexlayer/periodai.git
+git clone https://github.com/nexuslayer/periodai.git
 cd periodai
 
 cp .env.example .env
@@ -185,7 +185,7 @@ SMTP_USER=apikey
 SMTP_PASSWORD=your_sendgrid_key
 SMTP_FROM=reports@yourcompany.com
 
-# Optional: Nexlayer integrations
+# Optional: NexusLayer integrations
 AGENTVAULT_URL=http://agentvault:8082
 WATCHGRID_URL=http://watchgrid:8088
 ```
@@ -570,7 +570,7 @@ volumes:
 ### Local Setup
 
 ```bash
-git clone https://github.com/nexlayer/periodai.git
+git clone https://github.com/nexuslayer/periodai.git
 cd periodai
 
 # Start dependencies
@@ -664,7 +664,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**PeriodAI** is part of the **Nexlayer Platform** — a suite of self-hosted AI developer tools.
+**PeriodAI** is part of the **NexusLayer Platform** — a suite of self-hosted AI developer tools.
 
 [AgentShop](../AIAgentRental/README.md) · [BrainVault](../BrainVault/README.md) · [PeriodAI](../PeriodAIProduct/README.md) · [WikiLLM](../WikiLLM/README.md) · [ModelRouter](../ModelRouter/README.md) · [AgentVault](../AgentVault/README.md) · [FlowMesh](../flowmesh/README.md) · [WatchGrid](../watchgrid/README.md)
 

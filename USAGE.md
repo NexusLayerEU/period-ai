@@ -253,7 +253,7 @@ With custom headers and pagination:
     "type": "header",
     "headers": {
       "X-API-Key": "secret-key",
-      "X-Org-ID": "nexlayer"
+      "X-Org-ID": "nexuslayer"
     }
   },
   "pagination": {
@@ -514,7 +514,7 @@ All schedule times are in the workspace timezone (default: UTC). Set timezone in
   "type": "email",
   "recipients": ["cto@company.com", "team@company.com"],
   "subject": "{{report_name}} — {{report_date}}",
-  "replyTo": "noreply@nexlayer.io",
+  "replyTo": "noreply@nexuslayer.io",
   "includePdf": true
 }
 ```
